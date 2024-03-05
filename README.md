@@ -26,7 +26,7 @@ The Carbon Emission of the various industry has been stored in the XDC Blockchai
 
 # EcoChain Eco System Architecture
 
-![GCT Green Chain Flow](https://github.com/tech-creed/Green-Chain-PLI-Hackathon-2.0/assets/65155327/439e9b49-7ac5-4259-aca0-0668878f08b3)
+![GCT Green Chain Flow](/arch.jpeg)
 
 # Demo Application
 
