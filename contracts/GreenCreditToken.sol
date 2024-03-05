@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract GreenCreditToken is ERC20 {
-    address payable public GreenChainPlatformOwner;
+    address payable public EcoChainPlatformOwner;
     uint public tokenPrice;
 
     mapping(address => bool) public GovernmentAccounts;
@@ -14,14 +14,14 @@ contract GreenCreditToken is ERC20 {
     mapping(address => uint) public IndustryAllowance;
 
     constructor(uint initTokenPrice) ERC20("GreenCredit", "GCT") {
-        GreenChainPlatformOwner = payable(msg.sender);
+        EcoChainPlatformOwner = payable(msg.sender);
         tokenPrice = initTokenPrice;
-        _mint(GreenChainPlatformOwner, 100 * 10**decimals());
+        _mint(EcoChainPlatformOwner, 100 * 10**decimals());
     }
 
     modifier onlyPlatformOwner() {
         require(
-            msg.sender != GreenChainPlatformOwner,
+            msg.sender != EcoChainPlatformOwner,
             "you are not a platform owner"
         );
         _;

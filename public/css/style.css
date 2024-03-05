@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: #38c23a;
+  color: #a41d33;
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ a:hover {
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(60deg, #38c23a, #2bec45);
+  background: linear-gradient(60deg, #bb33a9, #2bec45);
   border-radius: 10px;
 }
 
@@ -63,7 +63,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #38c23a;
+  color: #2d56cf;
   text-transform: uppercase;
 }
 
@@ -144,11 +144,11 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #38c23a;
+  background: #3acfc0;
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  transition: all 0.4s;
+  transition: all 0.3s;
 }
 
 .back-to-top i {
@@ -180,7 +180,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  transition: all 0.5s;
+  transition: all 0.3s;
   z-index: 997;
   padding: 20px 0;
 }
@@ -319,7 +319,7 @@ section {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-
+g
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
@@ -1263,7 +1263,7 @@ section {
 .footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-size: 13px;
+  font-size: 25px;
   color: #017013;
 }
 

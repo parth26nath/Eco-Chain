@@ -12,8 +12,27 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #38c23a;
+    background-color: #86cc70;
 }
+/* Header Styling */
+.header {
+    background-color: #ffffff; /* Set background color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow if desired */
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust height of the logo image */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .logo span {
+    font-size: 1.2em; /* Adjust font size of the text */
+    margin-left: 10px; /* Add spacing between the logo image and text */
+    font-weight: bold; /* Optionally, set font weight */
+    color: #333; /* Optionally, set text color */
+  }
+  
 
 /* width */
 

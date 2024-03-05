@@ -129,7 +129,7 @@ App = {
     });
     r = await r.json();
     if (r) {
-      alert(data["name"] + " Welcome to the GreenChain EcoSystem");
+      alert(data["name"] + " Welcome to the EcoChain EcoSystem");
       if (data["role"] == "industry") {
         window.location.href = `/ipfs/kyc-file-upload`;
       } else {
