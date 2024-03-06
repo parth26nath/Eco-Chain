@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract EcoCreditToken is ERC20 {
+contract GreenCreditToken is ERC20 {
     address payable public EcoChainPlatformOwner;
     uint public tokenPrice;
 
